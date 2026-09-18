@@ -7,6 +7,7 @@
 5. Brainiac
 6. Joker
 7. Harley Quinn
+8. Darkseid
 
 ## Notas
 
@@ -17,3 +18,4 @@
 - Brainiac es el mayor de los Villanos
 - Joker es el mayor de los Villanos
 - Harley Quinn es el mayor de los Villanos
+- Darkseid es el mayor de los Villanos
