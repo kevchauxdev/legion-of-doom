@@ -31,3 +31,10 @@ Congelar Metrópolis durante una hora utilizando el satélite **Glaciar-1**, dem
 ## Contingencia
 
 Si Superman destruye Glaciar-1, activar el centro de control alterno en la Fortaleza Prohibida y liberar los drones congeladores almacenados en la ciudad. La retirada tendrá prioridad sobre cualquier rescate del satélite.
+
+## Pasos de la operación
+
+1. Activar los señuelos satelitales para confundir a los héroes.
+2. Disparar el rayo criogénico durante treinta segundos sobre el centro de la ciudad.
+3. Mantener la temperatura estable en -40 °C y monitorizar las zonas críticas.
+4. Detener el rayo cuando el gobierno acepte negociar.
