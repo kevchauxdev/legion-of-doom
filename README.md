@@ -1,4 +1,4 @@
-![Estático](https://img.shields.io/badge/Legion--del--mal-Ultima--version-blue)
+![Estático](https://img.shields.io/badge/Legion--del--mal-Última--versión-blue)
 
 ![Workflow](https://img.shields.io/github/actions/workflow/status/kevincchs77/legion-of-doom/ci.yml)
 ![Release](https://img.shields.io/github/v/release/kevincchs77/legion-of-doom)
