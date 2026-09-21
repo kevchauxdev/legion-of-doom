@@ -1,3 +1,12 @@
+![Estático](https://img.shields.io/badge/Legion--del--mal-Ultima--version-blue)
+
+![Workflow](https://img.shields.io/github/actions/workflow/status/kevincchs77/legion-of-doom/ci.yml)
+![Release](https://img.shields.io/github/v/release/kevincchs77/legion-of-doom)
+![Issues](https://img.shields.io/github/issues/kevincchs77/legion-of-doom)
+![Último commit](https://img.shields.io/github/last-commit/kevincchs77/legion-of-doom)
+![Licencia](https://img.shields.io/github/license/kevincchs77/legion-of-doom)
+
+
 # 🦹‍♂️ La Legión del Mal
 
 > _"El mundo no se conquista con fuerza bruta, se conquista con un buen plan y control de versiones."_
