@@ -53,6 +53,7 @@ Somos la alianza definitiva de supervillanos. Mientras los héroes se dividen en
 3. **Los códigos de lanzamiento JAMÁS se suben al repositorio.** El que los suba será entregado a Batman.
 4. **Los fracasos se documentan.** Aprendemos de ellos para la próxima vez.
 5. **Nada de monólogos explicando el plan al héroe.** Joker, esto va especialmente por ti.
+6. **No se permite el uso de la palabra "mal" en el nombre de cualquier personaje.**
 
 ## Estado actual
 
