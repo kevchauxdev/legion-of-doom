@@ -54,6 +54,7 @@ Somos la alianza definitiva de supervillanos. Mientras los héroes se dividen en
 4. **Los fracasos se documentan.** Aprendemos de ellos para la próxima vez.
 5. **Nada de monólogos explicando el plan al héroe.** Joker, esto va especialmente por ti.
 6. **No se permite el uso de la palabra "mal" en el nombre de cualquier personaje.**
+7. **Los planes de la Legión del Mal no deben ser utilizados para operaciones de combate.**
 
 ## Estado actual
 
