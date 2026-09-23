@@ -46,6 +46,30 @@
 - **Vulture:** Adrian Toomes, inventor equipado con alas mecánicas. Prefiere atacar desde el aire y retirarse con rapidez.
 - **Kingpin:** Wilson Fisk, jefe criminal con influencia sobre varias redes de Nueva York. Spider-Man lo considera una amenaza estratégica más que física.
 
+## Aliados y conocidos
+
+- **Mary Jane Watson:** Amiga cercana y persona de confianza. Conoce las responsabilidades que Peter intenta equilibrar con su vida personal.
+- **Tía May:** Figura familiar fundamental para Peter y una de sus principales fuentes de apoyo emocional.
+- **Miles Morales:** Spider-Man de otra generación y aliado habitual en situaciones que requieren cooperación entre héroes.
+- **Los Vengadores:** Grupo de héroes al que Spider-Man recurre cuando una amenaza supera el alcance de Nueva York.
+- **Daredevil:** Protector de Hell's Kitchen y colaborador frecuente en investigaciones urbanas.
+- **Doctor Strange:** Aliado experto en amenazas mágicas, dimensiones alternativas y anomalías temporales.
+- **Gwen Stacy:** Científica y heroína de otra realidad, vinculada a la red de Spider-personas.
+
+## Películas destacadas
+
+| Año | Película                                      | Observación                                                       |
+| --- | --------------------------------------------- | ----------------------------------------------------------------- |
+| 2002 | *Spider-Man*                                | Origen cinematográfico de Peter Parker y su primer enfrentamiento con Green Goblin. |
+| 2004 | *Spider-Man 2*                               | El Doctor Octopus aparece como amenaza principal.                 |
+| 2007 | *Spider-Man 3*                               | Peter enfrenta a Sandman, Venom y el lado más oscuro del simbionte. |
+| 2012 | *The Amazing Spider-Man*                     | Nueva versión del origen y conflicto con el Lagarto.             |
+| 2014 | *The Amazing Spider-Man 2*                   | Spider-Man se enfrenta a Electro y al Duende Verde.              |
+| 2017 | *Spider-Man: Homecoming*                     | Peter intenta equilibrar su vida escolar con la amenaza de Vulture. |
+| 2019 | *Spider-Man: Lejos de casa*                  | Mysterio manipula la percepción de Spider-Man durante una misión internacional. |
+| 2021 | *Spider-Man: Sin camino a casa*              | La aparición de varias realidades reúne distintas versiones del héroe y sus enemigos. |
+| 2023 | *Spider-Man: Cruzando el Spider-Verso*       | Miles Morales asume un papel central dentro de una red de Spider-personas. |
+
 ## Encuentros anteriores con la Legión
 
 | Fecha   | Misión                         | Resultado                                                   |
