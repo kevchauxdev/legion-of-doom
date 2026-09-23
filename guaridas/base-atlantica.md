@@ -57,6 +57,14 @@ La estación solo puede transmitir mensajes breves durante las ventanas de baja 
 | Dron B-12     | Inspección de estructuras        | Permanente |
 | Mystique       | Coordinación y seguridad interna | 2026-09-01 |
 
+## Protocolos de operación
+
+1. Registrar cada cambio de presión y comunicar cualquier variación al responsable de mantenimiento.
+2. Revisar el sistema de reciclaje de agua al inicio de cada turno.
+3. Mantener las comunicaciones con la Base Lunar dentro de las ventanas programadas.
+4. Suspender las actividades de investigación si la energía disponible baja de cinco días.
+5. Realizar una inspección completa de la estación antes de recibir personal nuevo.
+
 ## Ruta de evacuación
 
 1. Sumergible de transporte → punto de recogida en aguas internacionales
