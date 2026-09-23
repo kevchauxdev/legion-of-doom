@@ -46,6 +46,16 @@
 - **Vulture:** Adrian Toomes, inventor equipado con alas mecánicas. Prefiere atacar desde el aire y retirarse con rapidez.
 - **Kingpin:** Wilson Fisk, jefe criminal con influencia sobre varias redes de Nueva York. Spider-Man lo considera una amenaza estratégica más que física.
 
+## Aliados y conocidos
+
+- **Mary Jane Watson:** Amiga cercana y persona de confianza. Conoce las responsabilidades que Peter intenta equilibrar con su vida personal.
+- **Tía May:** Figura familiar fundamental para Peter y una de sus principales fuentes de apoyo emocional.
+- **Miles Morales:** Spider-Man de otra generación y aliado habitual en situaciones que requieren cooperación entre héroes.
+- **Los Vengadores:** Grupo de héroes al que Spider-Man recurre cuando una amenaza supera el alcance de Nueva York.
+- **Daredevil:** Protector de Hell's Kitchen y colaborador frecuente en investigaciones urbanas.
+- **Doctor Strange:** Aliado experto en amenazas mágicas, dimensiones alternativas y anomalías temporales.
+- **Gwen Stacy:** Científica y heroína de otra realidad, vinculada a la red de Spider-personas.
+
 ## Películas destacadas
 
 | Año | Película                                      | Observación                                                       |
