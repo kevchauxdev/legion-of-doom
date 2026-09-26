@@ -41,3 +41,9 @@ on:
 jobs:
   transmitir-mensaje:
     runs-on: ubuntu-latest
+
+    steps:
+      - name: Instalar el tranmisor de la Legión
+        run: |
+          echo "Instalando el transmisor de la Legión"
+          echo "Transmisor instalado correctamente"
