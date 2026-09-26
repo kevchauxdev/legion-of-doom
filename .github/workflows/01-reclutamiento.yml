@@ -2,10 +2,7 @@
 name: Reclutamiento de Agentes
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   reporte-de-reclutamiento:
