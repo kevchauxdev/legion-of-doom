@@ -10,6 +10,7 @@ on:
 jobs:
   reporte-de-reclutamiento:
     runs-on: ubuntu-latest
+    permissions: {}
 
     steps:
       - name: El Agente se presenta
@@ -17,15 +18,18 @@ jobs:
           echo "Hola, soy el Agente de Reclutamiento"
           echo "Estoy listo para recibir el reporte de reclutamiento 🤖"
 
-
-      - name: Reporte de identidad
+      - name: Reporte de ejecución
+        env:
+          ACTOR: ${{ github.actor }}
+          REPOSITORY: ${{ github.repository }}
+          COMMIT_SHA: ${{ github.sha }}
+          EVENT_NAME: ${{ github.event_name }}
+          RUN_ID: ${{ github.run_id }}
         run: |
-          echo "Reporte de identidad"
-          echo "===================="
-          echo ""
-          echo "Nombre clave: ${{ github.actor }}"
-          echo ""
-          echo "Contexto de Github"
-          echo "Repo: ${{ github.repository }}"
-          echo "Operación: ${{ github.sha }}"
-          echo "Metadata: ${{ toJson(github) }}"
+          printf 'Reporte de ejecución\n'
+          printf '%s\n' '====================='
+          printf 'Agente: %s\n' "$ACTOR"
+          printf 'Repositorio: %s\n' "$REPOSITORY"
+          printf 'Evento: %s\n' "$EVENT_NAME"
+          printf 'Commit: %s\n' "$COMMIT_SHA"
+          printf 'Ejecución: %s\n' "$RUN_ID"
