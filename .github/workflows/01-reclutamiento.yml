@@ -6,11 +6,26 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+  workflow_dispatch: # Permite ejecutar el workflow manualmente desde GitHub
+    inputs:
+      razon:
+        description: 'Motivo del reporte manual'
+        required: false
+        default: 'Verificación de rutina'
 jobs:
   reporte-de-reclutamiento:
+    name: Generar Reporte de Agente
     runs-on: ubuntu-latest
-    permissions: {}
+    permissions:
+      contents: read
+
+    # Variables accesibles en todos los pasos del job
+    env:
+      ACTOR: ${{ github.actor }}
+      REPOSITORY: ${{ github.repository }}
+      COMMIT_SHA: ${{ github.sha }}
+      EVENT_NAME: ${{ github.event_name }}
+      RUN_ID: ${{ github.run_id }}
 
     steps:
       - name: El Agente se presenta
@@ -18,14 +33,9 @@ jobs:
           echo "Hola, soy el Agente de Reclutamiento"
           echo "Estoy listo para recibir el reporte de reclutamiento 🤖"
 
-      - name: Reporte de ejecución
-        env:
-          ACTOR: ${{ github.actor }}
-          REPOSITORY: ${{ github.repository }}
-          COMMIT_SHA: ${{ github.sha }}
-          EVENT_NAME: ${{ github.event_name }}
-          RUN_ID: ${{ github.run_id }}
+      - name: Reporte de ejecución en consola
         run: |
+          echo "::group::Ver detalles de la ejecución"
           printf 'Reporte de ejecución\n'
           printf '%s\n' '====================='
           printf 'Agente: %s\n' "$ACTOR"
@@ -33,3 +43,28 @@ jobs:
           printf 'Evento: %s\n' "$EVENT_NAME"
           printf 'Commit: %s\n' "$COMMIT_SHA"
           printf 'Ejecución: %s\n' "$RUN_ID"
+          echo "::endgroup::"
+
+      - name: Capacidades del agente
+        run: |
+          echo "::group::Ver entorno e herramientas"
+          echo "OS: $(uname -s -r -m)"
+          echo "Node.js: $(node --version)"
+          echo "Git: $(git --version)"
+          echo "Python: $(python3 --version)"
+          echo "::endgroup::"
+
+      - name: Publicar resumen visual en GitHub
+        run: |
+          echo "## 🤖 Reporte de Reclutamiento" >> $GITHUB_STEP_SUMMARY
+          echo "* **Agente:** \`$ACTOR\`" >> $GITHUB_STEP_SUMMARY
+          echo "* **Repositorio:** \`$REPOSITORY\`" >> $GITHUB_STEP_SUMMARY
+          echo "* **Evento:** \`$EVENT_NAME\`" >> $GITHUB_STEP_SUMMARY
+          echo "* **Commit:** \`${COMMIT_SHA:0:7}\`" >> $GITHUB_STEP_SUMMARY
+          echo "* **ID de Ejecución:** [$RUN_ID](${github.server_url}/${github.repository}/actions/runs/$RUN_ID)" >> $GITHUB_STEP_SUMMARY
+
+      - name: Reconocimiento del terreno
+        run: |
+          echo "::group::Archivos en la raíz del runner"
+          ls -la /
+          echo "::endgroup::"
