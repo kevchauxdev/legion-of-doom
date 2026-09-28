@@ -31,3 +31,9 @@ Si la señal es descubierta, Mystique difundirá una identidad falsa del respons
 2. Brainiac diseñará el sistema de control y Lex Luthor conseguirá acceso a la red de comunicaciones global.
 3. Magneto protegerá los equipos contra interferencias externas.
 4. Probar la señal con un objetivo de bajo riesgo antes de activarla a escala mundial.
+
+## Plan de escape
+
+- Superman destruye el transmisor principal en la Base Lunar.
+- Mystique difunde una identidad falsa del responsable.
+- Magneto destruye los equipos de control.

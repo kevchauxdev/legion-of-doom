@@ -1,3 +1,4 @@
+
 # Operación Metrópolis bajo cero
 
 **Código:** OMB-005  
@@ -38,3 +39,10 @@ Si Superman destruye Glaciar-1, activar el centro de control alterno en la Forta
 2. Disparar el rayo criogénico durante treinta segundos sobre el centro de la ciudad.
 3. Mantener la temperatura estable en -40 °C y monitorizar las zonas críticas.
 4. Detener el rayo cuando el gobierno acepte negociar.
+
+
+## Plan de escape
+
+- Superman destruye Glaciar-1.
+- Activar el centro de control alterno en la Fortaleza Prohibida.
+- Liberar los drones congeladores almacenados en la ciudad. 
